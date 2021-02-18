@@ -1,0 +1,197 @@
+@media only screen and (max-width: 1540px){
+    .main-menu .navbar-brand img{
+        margin-left: 0;
+    }
+    .main-menu ul li:first-child{
+        margin-left: 0;
+        padding-left: 10px;
+    }
+    .main-menu ul{
+        margin: auto;
+    }
+    .main-menu form .lang{
+        margin-right: 10px;
+    }
+}
+@media only screen and (max-width: 1199px){
+    .main-menu ul{
+        margin: unset;
+        margin-right: unset !important;
+        margin-left: auto;
+    }
+    .main-menu form{
+        display: none;
+    }
+    .services .service-text h2{
+        font-size: 35px;
+        line-height: 55px;
+    }
+}
+@media only screen and (max-width: 991px){
+    header{
+        background: none;
+    }
+    .main-menu ul{
+        margin: 30px 0 0;
+    }
+    .main-menu ul li{
+        padding: 8px 10px;
+        border-bottom: 1px solid rgba(255, 57, 70, 0.4);
+    }
+    .main-menu form{
+        display: block;
+    }
+    .main-menu form .lang{
+        padding: 15px 10px;
+        border-bottom: 1px solid rgba(255, 57, 70, 0.4);
+    }
+    .main-menu form .contact{
+        margin: 20px 10px;
+    }
+    .hero-area .hero-content{
+        padding: 5rem 0 10rem;
+        text-align: center;
+    }
+    .services .service-text{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .services .service-text h2{
+        font-size: 45px;
+        line-height: 65px;
+    }
+    .about{
+        text-align: center;
+    }
+    .about .about-text{
+        margin-top: 80px;
+    }
+    .portfolio{
+        text-align: center;
+    }
+    .portfolio .side-image3 img{
+        width: 80%;
+    }
+    .portfolio .portfolio-card .portfolio-content{
+        margin: auto;
+        width: 75%;
+        height: 32vw;
+    }
+    .portfolio .portfolio-card .portfolio-content .overlay h3{
+        line-height: 32vw;
+    }
+    .blog .blog-top{
+        text-align: center;
+    }
+    .blog .blog-card{
+        margin-bottom: 40px;
+    }
+    .contact .contact-top{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 767px){
+    .hero-area h1{
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .services .service-text h2{
+        font-size: 35px;
+        line-height: 55px;
+    }
+    .services .service-card{
+        padding: 40px 30px;
+    }
+    .services .service-card h3{
+        font-size: 20px;
+        margin: 30px 0;
+    }
+    .footer-content ul li{
+        padding: 0 0;
+    }
+}
+@media only screen and (max-width: 575px){
+    .main-menu nav{
+        padding: 30px;
+    }
+    .hero-area .hero-content{
+        padding: 3rem 0 8rem;
+    }
+    .hero-area h1{
+        font-size: 10vw;
+        line-height: 11vw;
+    }
+    .services .service-text h2{
+        font-size: 8vw;
+        line-height: 10vw;
+        margin-bottom: 20px;
+    }
+    .services .service-card{
+        margin-bottom: 50px;
+    }
+    .services .side-image1 img{
+        width: 70%;
+    }
+    .services .side-image2 img{
+        width: 70%;
+    }
+    .about .container{
+        padding: 100px 30px;
+    }
+    .about .about-text h2{
+        font-size: 8vw;
+        margin: 20px 0 30px;
+    }
+    .about .about-text p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .portfolio .portfolio-top h2{
+        font-size: 9vw;
+        margin-bottom: 30px;
+    }
+    .portfolio .portfolio-card .portfolio-content{
+        margin: auto;
+        width: 90%;
+        height: 35vw;
+    }
+    .portfolio .portfolio-card .portfolio-content .overlay h3{
+        font-size: 18px;
+    }
+    .blog .side-image4 img{
+        width: 80%;
+    }
+    .blog .container{
+        padding: 0 30px;
+    }
+    .contact .container{
+        padding: 25px 30px 50px;
+    }
+    .footer-content h2{
+        font-size: 8vw;
+        margin: 10px 0 20px;
+    }
+    .footer-content ul li a{
+        font-size: 16px;
+    }
+    .footer-content p{
+        margin: 20px 0 30px;
+    }
+    .footer-content .social li{
+        padding: 0 10px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .blog .blog-top h2{
+        font-size: 40px;
+    }
+    .contact .contact-top h2{
+        font-size: 40px;
+    }
+    .footer-content .social li{
+        padding: 0 5px;
+    }
+    .footer-content .social li a i{
+        font-size: 20px;
+    }
+}
